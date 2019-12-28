@@ -9,10 +9,14 @@ branches:
 script:
   - hexo generate # generate static files
 deploy:
-  provider: pages
+  provider: 
   skip-cleanup: true
   github-token: $TBT1mLrkBskg7t-9v69oTA
   keep-history: true
   on:
     branch: master
   local-dir: public
+after_success:
+  - git config --global user.name "travis"
+  - git config --global user.email "travis@ci.com"
+  - hexo d
