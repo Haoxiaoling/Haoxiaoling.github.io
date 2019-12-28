@@ -14,16 +14,11 @@ branches:
     - source # build master branch only
 script:
   - hexo generate # generate static files
-# deploy:
-#   provider: pages
-#   skip-cleanup: true
-#   github-token: $GH_TOKEN
-#   keep-history: true
-#   on:
-#     branch: master
-#   local-dir: public
-after_success:
-  - git config --global user.name "travis"
-  - git config --global user.email "travis@ci.com"
-  - sed -i'' "s~git@github.com:Haoxiaoling/Haoxiaoling.github.io.git~https://${GH_TOKEN}@github.com/Haoxiaoling/Haoxiaoling.github.io.git~" _config.yml
-  - hexo d
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GH_TOKEN
+  keep-history: true
+  on:
+    branch: master
+  local-dir: public
