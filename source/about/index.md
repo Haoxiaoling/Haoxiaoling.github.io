@@ -2,7 +2,7 @@
 title: Xiaoling Long(龙肖灵)
 date: 2019-12-27 08:27:13
 ---
-# Xiaoling Long
+# Xiaoling Long(龙肖灵)
 [MARS Lab](https://robotics.shanghaitech.edu.cn/)
 ## Education
 |   |    |    |
