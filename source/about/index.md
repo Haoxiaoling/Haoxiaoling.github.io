@@ -5,4 +5,6 @@ date: 2019-12-27 08:27:13
 # Xiaoling Long
 
 ## Education
-Shanghaitech Univeristy 2017-prensent
+|   |    |    |
+|---| ---| ---|
+| Shanghaitech Univeristy | Master | 2017-prensent |

@@ -101,3 +101,12 @@ deploy:
   type: git
   repo: git@github.com:Haoxiaoling/Haoxiaoling.github.io.git
   branch: master
+
+
+backup:
+  type: git
+  theme: material-x-1.2.1
+  message: Back up my blog source files
+  repository:
+    github: git@github.com:Haoxiaoling/Haoxiaoling.github.io.git, source
+    coding: git@git.dev.tencent.com:TRHX/TRHX.git,backup
