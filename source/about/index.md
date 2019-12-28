@@ -7,4 +7,5 @@ date: 2019-12-27 08:27:13
 ## Education
 |   |    |    |
 |---| ---| ---|
-| Shanghaitech Univeristy | Master | 2017-prensent |
+| Shanghaitech Univeristy | Robotics | 2017-prensent |
+| Nanjing University of Posts and Telecommunications | Automation | 2013-2017 |
