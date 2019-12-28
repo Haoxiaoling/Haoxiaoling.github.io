@@ -105,8 +105,8 @@ deploy:
 
 backup:
   type: git
-  theme: material-x-1.2.1
+  theme: next
   message: Back up my blog source files
   repository:
-    github: git@github.com:Haoxiaoling/Haoxiaoling.github.io.git, source
-    coding: git@github.com:Haoxiaoling/Haoxiaoling.github.io.git, source
+    github: git@github.com:Haoxiaoling/Haoxiaoling.github.io.git, backup
+    coding: git@github.com:Haoxiaoling/Haoxiaoling.github.io.git, backup
