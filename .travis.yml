@@ -19,5 +19,5 @@ script:
 after_success:
   - git config --global user.name "travis"
   - git config --global user.email "travis@ci.com"
-  - sed -i "s/__GH_TOKEN__/${__GH_TOKEN__}/" _config.yml
+  - sed -i "s/__GH_TOKEN__/${GH_TOKEN}/" _config.yml
   - hexo d
