@@ -1,17 +1,11 @@
 sudo: false
 language: node_js
 node_js:
-  - lts/* # use nodejs v10 LTS
-cache: 
-  directories:
-    - node_modules
-install:
-  - npm install hexo-cli -g
-  - npm install
-
+  - 10 # use nodejs v10 LTS
+cache: npm
 branches:
   only:
-    - source # build master branch only
+    - master # build master branch only
 script:
   - hexo generate # generate static files
 deploy:
@@ -19,9 +13,7 @@ deploy:
   skip-cleanup: true
   github-token: $GH_TOKEN
   keep-history: true
+  target_branch: master # generate static files to master
   on:
-    repo: https://github.com/Haoxiaoling/Haoxiaoling.github.io.git
-    branches:
-      only:
-        - master
+    branch: source
   local-dir: public
