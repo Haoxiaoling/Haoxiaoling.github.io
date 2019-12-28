@@ -109,4 +109,4 @@ backup:
   message: Back up my blog source files
   repository:
     github: git@github.com:Haoxiaoling/Haoxiaoling.github.io.git,backup
-    gitcafe: git@github.com:Haoxiaoling/Haoxiaoling.github.io.git,backup
+    coding: git@github.com:Haoxiaoling/Haoxiaoling.github.io.git,backup
