@@ -1,8 +1,14 @@
 sudo: false
 language: node_js
 node_js:
-  - 10 # use nodejs v10 LTS
-cache: npm
+  - lts/* # use nodejs v10 LTS
+cache: 
+  directories:
+    - node_modules
+install:
+  - npm install hexo-cli -g
+  - npm install
+
 branches:
   only:
     - source # build master branch only
@@ -19,5 +25,5 @@ script:
 after_success:
   - git config --global user.name "travis"
   - git config --global user.email "travis@ci.com"
-  - sed -i "s/__GH_TOKEN__/${GH_TOKEN}/" _config.yml
+  - sed -i'' "s~git@github.com:Haoxiaoling/Haoxiaoling.github.io.git~https://${GH_TOKEN}@github.com/Haoxiaoling/Haoxiaoling.github.io.git~" _config.yml
   - hexo d
