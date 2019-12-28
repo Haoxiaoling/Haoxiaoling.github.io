@@ -20,5 +20,8 @@ deploy:
   github-token: $GH_TOKEN
   keep-history: true
   on:
-    branch: master
+    repo: https://github.com/Haoxiaoling/Haoxiaoling.github.io.git
+    branches:
+      only:
+        - master
   local-dir: public
