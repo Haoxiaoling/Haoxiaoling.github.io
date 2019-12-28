@@ -24,15 +24,14 @@ minify: false
 custom_file_path:
   #head: source/_data/head.swig
   #header: source/_data/header.swig
-  #sidebar: source/_data/sidebar.swig
+  # sidebar: source/_data/sidebar.swig
   #postMeta: source/_data/post-meta.swig
   #postBodyEnd: source/_data/post-body-end.swig
   #footer: source/_data/footer.swig
   #bodyEnd: source/_data/body-end.swig
   #variable: source/_data/variables.styl
   #mixin: source/_data/mixins.styl
-  #style: source/_data/styles.styl
-
+  # style: source/_data/calendar.styl
 
 # ---------------------------------------------------------------
 # Site Information Settings
@@ -169,12 +168,13 @@ avatar:
   # Replace the default image and set the url here.
   url: /images/avatar.gif
   # If true, the avatar will be dispalyed in circle.
-  rounded: false
+  rounded: true
   # If true, the avatar will be rotated with the cursor.
-  rotated: false
+  rotated: true
 
 # Posts / Categories / Tags in sidebar.
 site_state: true
+
 
 # Social Links
 # Usage: `Key: permalink || icon`
@@ -295,12 +295,16 @@ related_posts:
 # Dependencies: https://github.com/hexojs/hexo-deployer-git
 post_edit:
   enable: true
-  url: https://github.com/Haoxiaoling/Haoxiaoling.github.io/tree/post/source/ # Link for view source
+  url: https://github.com/Haoxiaoling/Haoxiaoling.github.io/tree/source/source/ # Link for view source
   #url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name # Link for fork & edit
 
 # Show previous post and next post in post footer if exists
 # Available values: left | right | false
 post_navigation: left
+
+auto_excerpt:
+  enable: true
+  length: 150
 
 
 # ---------------------------------------------------------------
@@ -359,18 +363,18 @@ codeblock:
   highlight_theme: normal
   # Add copy button on codeblock
   copy_button:
-    enable: false
+    enable: true
     # Show text copy result.
-    show_result: false
+    show_result: true
     # Available values: default | flat | mac
-    style:
+    style: flat
 
 back2top:
   enable: true
   # Back to top in sidebar.
   sidebar: false
   # Scroll percent label in b2t button.
-  scrollpercent: false
+  scrollpercent: true
 
 # Reading progress bar
 reading_progress:
@@ -391,7 +395,7 @@ bookmark:
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
-  enable: false
+  enable: true
   permalink: https://github.com/Haoxiaoling
   title: Follow me on GitHub
 
