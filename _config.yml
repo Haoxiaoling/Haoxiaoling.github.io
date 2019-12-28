@@ -99,8 +99,8 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  # repo: git@github.com:Haoxiaoling/Haoxiaoling.github.io.git
-  repo: https://__GH_TOKEN__@github.com:Haoxiaoling/Haoxiaoling.github.io.git
+  repo: git@github.com:Haoxiaoling/Haoxiaoling.github.io.git
+  # repo: https://__GH_TOKEN__@github.com:Haoxiaoling/Haoxiaoling.github.io.git
   branch: master
 
 backup:
