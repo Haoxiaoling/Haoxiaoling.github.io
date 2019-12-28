@@ -294,7 +294,7 @@ related_posts:
 # Post edit
 # Dependencies: https://github.com/hexojs/hexo-deployer-git
 post_edit:
-  enable: false
+  enable: true
   url: https://github.com/Haoxiaoling/Haoxiaoling.github.io/tree/post/source/ # Link for view source
   #url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name # Link for fork & edit
 
@@ -320,8 +320,8 @@ tagcloud:
 # Google Calendar
 # Share your recent schedule to others via calendar page.
 calendar:
-  calendar_id: <required> # Your Google account E-Mail
-  api_key: <required>
+  calendar_id: laundream2013@gmail.com # Your Google account E-Mail
+  api_key: AIzaSyA7phOtM2y9G5jrYKMefRhtIMjPWSrouVE
   orderBy: startTime
   offsetMax: 24 # Time Range
   offsetMin: 4 # Time Range
@@ -391,7 +391,7 @@ bookmark:
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
-  enable: false
+  enable: true
   permalink: https://github.com/Haoxiaoling
   title: Follow me on GitHub
 
