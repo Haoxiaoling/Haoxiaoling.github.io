@@ -321,7 +321,7 @@ tagcloud:
 # Share your recent schedule to others via calendar page.
 calendar:
   calendar_id: laundream2013@gmail.com # Your Google account E-Mail
-  api_key: AIzaSyA7phOtM2y9G5jrYKMefRhtIMjPWSrouVE
+  api_key: 
   orderBy: startTime
   offsetMax: 24 # Time Range
   offsetMin: 4 # Time Range
@@ -391,7 +391,7 @@ bookmark:
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
-  enable: true
+  enable: false
   permalink: https://github.com/Haoxiaoling
   title: Follow me on GitHub
 
