@@ -95,4 +95,4 @@ $  hexo generate
 $  hexo server
 ```
 然后在浏览器中输入[localhost:4000](localhost:4000)就能看到你的个人博客啦！
-![blog](pics/blog.png)
+![blog](/images/blog.png)
